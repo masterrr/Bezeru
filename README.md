@@ -4,6 +4,14 @@
 
 Generate the white transparent overlay and place on it generated buttons with all bezels types.
 
+__OS X 10.6+__
+
+__ARC: NO__
+
+## Preferences
+
+
+
 ## Bezels in use
 
 ```objective-c

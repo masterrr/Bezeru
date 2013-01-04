@@ -6,7 +6,8 @@ Generate the white transparent overlay and place on it generated buttons with al
 
 ## Bezels in use
 
-`enum {
+```objective-c
+enum {
    NSRoundedBezelStyle           = 1,
    NSRegularSquareBezelStyle     = 2,
    NSThickSquareBezelStyle       = 3,
@@ -23,11 +24,12 @@ Generate the white transparent overlay and place on it generated buttons with al
    NSRoundedDisclosureBezelStyle = 14,
    NSInlineBezelStyle = 15,
    NSSmallIconButtonBezelStyle  = 2
-}`
+}
+```
 
 ## Example
 
-![buttons](buttons.png)
+![buttons](https://github.com/masterrr/Bezeru/raw/master/buttons.png)
 
 ## Contributing
 

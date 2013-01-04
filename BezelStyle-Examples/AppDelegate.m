@@ -51,7 +51,7 @@
     [fadedWindow setOpaque:NO]; 
     [fadedWindow setLevel:CGShieldingWindowLevel()];
     // make white overlay, cmd+q to quit
-    [fadedWindow setBackgroundColor:[NSColor colorWithDeviceRed:255 green:255 blue:255 alpha:1]];
+    [fadedWindow setBackgroundColor:[NSColor colorWithDeviceRed:255 green:255 blue:255 alpha:0.9]];
     
     // We start draw from left bottom corner
     

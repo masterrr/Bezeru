@@ -18,9 +18,8 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     
-    
-    NSProcessInfo *info = [[NSProcessInfo alloc] init];
-    [info enableSuddenTermination];
+    [NSApp enableSuddenTermination];
+    [NSApp disableRelaunchOnLogin];
     
     typedef enum bezelTypes {
         NSRoundedBezelStyle           = 1,

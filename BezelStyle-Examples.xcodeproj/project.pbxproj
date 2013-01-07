@@ -285,6 +285,7 @@
 				AF2E745416975A8800A0C7A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

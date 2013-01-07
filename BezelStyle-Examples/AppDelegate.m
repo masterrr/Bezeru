@@ -19,6 +19,8 @@
 {
     
     
+    NSProcessInfo *info = [[NSProcessInfo alloc] init];
+    [info enableSuddenTermination];
     
     typedef enum bezelTypes {
         NSRoundedBezelStyle           = 1,
